@@ -1,1 +1,5 @@
- <?php   phpinfo() ; ?>   
+<?php   
+echo date("r");
+phpinfo() ; 
+
+?>   
