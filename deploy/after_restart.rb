@@ -1,1 +1,1 @@
-system "mkdir", "/srv/www/php_test/MyTestFile"
+system "rm -r", "/srv/www/php_test/MyTestFile"
