@@ -3,5 +3,4 @@ template "/tmp/test" do
   source "#{release_path}/deploy/templates/file.erb"
   action :create
   variables(hell: node["web-app"]["servlet"]["servlet-name"])
- end
 end
